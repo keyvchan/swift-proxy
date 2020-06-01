@@ -49,24 +49,28 @@ let package = Package(
         .target(
             name: "SocksServer",
             dependencies: [
+                "swift-proxy",
                 .product(name: "NIO", package: "swift-nio"),
             ]
         ),
         .target(
             name: "SocksClient",
             dependencies: [
+                "swift-proxy",
                 .product(name: "NIO", package: "swift-nio"),
             ]
         ),
         .target(
             name: "HTTPServer",
             dependencies: [
+                "swift-proxy",
                 .product(name: "NIO", package: "swift-nio"),
             ]
         ),
         .target(
             name: "HTTPClient",
             dependencies: [
+                "swift-proxy",
                 .product(name: "NIO", package: "swift-nio"),
             ]
         ),
