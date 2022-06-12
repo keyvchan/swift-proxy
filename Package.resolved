@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "swift-nio",
-        "repositoryURL": "https://github.com/apple/swift-nio",
-        "state": {
-          "branch": null,
-          "revision": "120acb15c39aa3217e9888e515de160378fbcc1e",
-          "version": "2.18.0"
-        }
+  "pins" : [
+    {
+      "identity" : "swift-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio",
+      "state" : {
+        "revision" : "124119f0bb12384cef35aa041d7c3a686108722d",
+        "version" : "2.40.0"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

@@ -1,0 +1,8 @@
+import NIO
+
+protocol Proxy {
+
+
+
+
+    }
